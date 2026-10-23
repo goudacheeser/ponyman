@@ -1,0 +1,5 @@
+# ponytail benchmarks/agentic/run.py: add a ponyman plugin arm
++    "ponyman":        lambda: None,          # plugin arm: PONYMAN_PLUGIN_DIR
+-PLUGIN_ARMS = ("ponytail", "caveman", "ponytail2")
++PLUGIN_ARMS = ("ponytail", "caveman", "ponytail2", "ponyman")
+# run: PONYMAN_PLUGIN_DIR=/path/to/ponyman python3 run.py --all --arms baseline,caveman,ponytail,ponyman --model sonnet

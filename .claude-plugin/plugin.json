@@ -1,0 +1,7 @@
+{
+  "name": "ponyman",
+  "version": "0.1.0",
+  "description": "Ponytail + Caveman: write the least code that works, say the fewest words that carry it.",
+  "author": { "name": "goudacheeser" },
+  "hooks": "./hooks/hooks.json"
+}

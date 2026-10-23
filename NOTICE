@@ -1,0 +1,22 @@
+Ponyman
+Copyright 2026 goudacheeser
+
+skills/ponyman/SKILL.md is a derivative work combining and condensing:
+
+- Ponytail by Dietrich Gebert (https://github.com/DietrichGebert/ponytail)
+  Copyright (c) 2026 DietrichGebert. Licensed under the MIT License.
+  Source of the "Build less" section: the laziness ladder, root-cause rule,
+  ceiling comments, one-runnable-check rule and "never cut" list.
+
+- Caveman by Julius Brussee (https://github.com/JuliusBrussee/caveman)
+  Copyright 2026 Julius Brussee. Licensed under the Apache License, Version 2.0
+  (http://www.apache.org/licenses/LICENSE-2.0).
+  Source of the "Say less" and "Plain prose" sections: answer-first voice,
+  negation and payload preservation, ASD-STE100 sentence limits, bounded tool
+  status and the plain-prose exceptions.
+  Modifications: rules condensed, merged with Ponytail, intensity levels and
+  mode commands removed.
+
+The benchmark harnesses in benchmarks/ are run from the upstream repositories
+(caveman evals/, ponytail benchmarks/agentic/) and are not redistributed here,
+except for the small arm patch in benchmarks/agentic-arm.patch.
